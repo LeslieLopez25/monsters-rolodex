@@ -1,5 +1,7 @@
 import { Component } from "react";
 
+import "./card.styles.css";
+
 class CardList extends Component {
   render() {
     const { monsters } = this.props;
